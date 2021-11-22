@@ -1,4 +1,4 @@
-$$ \text{Redes - Web server}$$
+<center> # Redes - Web server
 
   - Entendo o problema
   ![problem](photo_2021-11-22_19-48-39.jpg)
@@ -6,7 +6,7 @@ $$ \text{Redes - Web server}$$
   - Analisar o código fornecido pelo livro
 
 --- 
-$$ \text{Primeiro teste de solução}$$
+## Primeiro teste de solução
 
 > Primeira versão
 
@@ -27,6 +27,7 @@ $$ \text{Primeiro teste de solução}$$
     KBYTE = 1024
 
     while True:
+
         try:
             connectionSocket, addr = serverSocket.accept()
             message = connectionSocket.recv(KBYTE).decode()
